@@ -1,0 +1,35 @@
+
+
+.btn{
+    height:100%;
+    width: 100%;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    font-size:medium;
+}
+tr:nth-child(even){
+    background-color: rgb(191, 189, 189);
+}
+tr:nth-child(odd){
+    background-color: rgb(126, 126, 126);
+}
+.bookrow{
+height: 30px;
+}
+.bookrow:hover{
+    background-color: blue;
+    
+}
+
+
+.btn:hover{
+    background-color: rgb(164, 0, 0);
+}
+
+.update{
+    background-color: orange;
+}
+.update:hover{
+    background-color: rgb(158, 103, 0);
+}

@@ -1,0 +1,32 @@
+.addtable{
+    height: 80%;
+}
+input {
+    height: 70%;
+    width: 70%;
+    margin-bottom: 4px;
+    background-color: transparent;
+    border: none;
+    color:black;
+    font-size: large;
+    font-weight: 600;
+
+}
+button{
+    height:100%;
+    width: 100%;
+    background-color:#21B531;
+    border: none;
+    font-weight: 600;
+    font-size:medium;
+}
+button:hover{
+    background-color:green;
+
+}
+input:hover{
+    cursor:pointer;
+}
+.id{
+    width: 55px;
+}
