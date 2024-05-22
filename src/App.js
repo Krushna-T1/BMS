@@ -15,7 +15,7 @@ function App() {
     {id: 4,title:"Pride and Prejudice", author: "Jane Austen", price: 650 },
     {id:5,title:"The Catcher in the Rye",author:"J.D. Salinger", price:850 }
 ];
-  let [books,setBooks]=useState(null);
+  let [books,setBooks]=useState(initialBook);
   function removeBook(id) {
     
 fetch(`http://localhost:8000/books/${id}`,{
